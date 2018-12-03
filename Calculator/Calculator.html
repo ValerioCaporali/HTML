@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calcolatrice</title>
+    <script type="text/javascript" src="Calcoli.js"></script>
+    <link rel="stylesheet" href="Custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+
+<p>CALCULATOR</p>
+
+<table cellspacing="0" cellpadding="0">
+    <tr>
+        <td height = "40" colspan="5" align="rigth">
+            <input class="visual" type="text" id="display">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <input class="button" type="button" value="7"
+            onclick="document.getElementById('display').value+=7">
+        </td>
+
+        <td>
+            <input class="button" type="button" value="8"
+                   onclick="document.getElementById('display').value+=8">
+        </td>
+
+        <td>
+            <input class="button" type="button" value="9"
+                   onclick="document.getElementById('display').value+=9">
+        </td>
+
+        <td>
+            <input class="button" type="button" value="/"
+                   onclick="diviso()">
+        </td>
+        <td>
+            <input class="button" type="button" value="x^2"
+                   onclick="seconda()">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <input class="button" type="button" value="4"
+                   onclick="document.getElementById('display').value+=4">
+        </td>
+
+        <td>
+            <input class="button" type="button" value="5"
+                   onclick="document.getElementById('display').value+=5">
+        </td>
+
+        <td>
+            <input class="button" type="button" value="6"
+                   onclick="document.getElementById('display').value+=6">
+        </td>
+
+        <td>
+            <input class="button" type="button" value="x"
+                   onclick="per()">
+        </td>
+
+        <td>
+            <input class="button" type="button" value="x^4"
+                   onclick="quarta()">
+        </td>
+
+    </tr>
+
+    <tr>
+        <td>
+            <input class="button" type="button" value="1"
+                   onclick="document.getElementById('display').value+=1">
+        </td>
+
+        <td>
+            <input class="button" type="button" value="2"
+                   onclick="document.getElementById('display').value+=2">
+        </td>
+
+        <td>
+            <input class="button" type="button" value="3"
+                   onclick="document.getElementById('display').value+=3">
+        </td>
+
+        <td>
+            <input class="button" type="button" value="-"
+                   onclick="meno()">
+        </td>
+
+        <td>
+            <input class="button" type="button" value="x^6"
+                   onclick="sesta()">
+        </td>
+
+    </tr>
+
+    <tr>
+        <td>
+            <input class="button" type="button" value="0"
+                   onclick="document.getElementById('display').value+=0">
+        </td>
+
+        <td>
+            <input class="button" type="button" value="C"
+                   onclick="document.getElementById('display').value=''; val1=0;">
+        </td>
+
+        <td>
+            <input class="button" type="button" value="="
+                   onclick="uguale()">
+        </td>
+
+        <td>
+            <input class="button" type="button" value="+"
+                   onclick="piu()">
+        </td>
+
+        <td>
+            <input class="button" type="button" value="&radic;"
+                   onclick="radice()">
+        </td>
+
+    </tr>
+
+</table>
+
+</body>
+</html>
