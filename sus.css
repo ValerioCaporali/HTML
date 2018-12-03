@@ -1,0 +1,210 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background-color: rgba(0, 0, 0, .668);
+    min-height: 100%;
+    color:white;
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+    margin:10px;
+}
+
+.container1{
+    margin:10px;
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(85, 85, 85);
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar-container{
+    display:inline-block;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .navbar .selected,.dropdown:hover .dropbtn {
+    background-color: #3e3f42;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.title {
+    -webkit-animation: color-change 5s infinite;
+    -moz-animation: color-change 5s infinite;
+    -o-animation: color-change 5s infinite;
+    -ms-animation: color-change 5s infinite;
+    animation: color-change 5s infinite;
+}
+
+.side-width {
+    width: 40%;
+    display: inline-block;
+    word-break: break-word;
+    margin-bottom: 14px;
+    margin-top: 10px;
+}
+
+.selected1{
+    background-color: #113e50;
+}
+
+.center-width, .center-width2 {
+    width: 18%;
+    display: inline-block;
+    word-break: break-word;
+    text-align: center;
+}
+
+.center-width > img {
+    position: relative;
+    top: -19px;
+}
+
+.center-width2 > img {
+    position: relative;
+    bottom: 34px;
+}
+
+.riga{
+    background-color: rgb(246, 92, 13);
+    text-align: center;
+    padding: 20px;
+}
+
+
+.scritta{
+    font-size:50px;
+    margin-bottom:0;
+    color:rgb(255, 255, 255);
+    margin-top:0;
+
+}
+
+.sinistra{
+    text-align: left;
+    color:rgb(255, 255, 255);
+    margin-top:0;
+    display: inline;
+}
+
+.scorrimento{
+    background-color:white;
+    padding:10px;
+}
+
+table.ns, .ns th, .ns td {
+    border: none;
+    margin-left: 28.5%;
+}
+
+.telefono{
+    margin-left:30px;
+    margin-top:40px;
+}
+
+.testo{
+    max-width: 33%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display:inline-block; /* l’elemento può assumere, come gli elementi blocco, dimensioni esplicite (larghezza e altezza)
+    , margini e padding, ma come tutti gli elementi inline,si disporrà orizzontalmente e non verticalmente, potendo essere
+     circondato dal testo ed essendo sensibile all’allineamento verticale*/
+
+    word-break: break-all;
+    background-color: #113e50;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing:border-box;
+    vertical-align: top;
+    min-height: 306px;
+    margin-bottom: 14px;
+    margin-top: 10px;
+}
+
+.sos{
+    font-family:Questrial;
+    text-align: center;
+    
+}
+
+@-webkit-keyframes color-change {
+    0% { color: white; }
+    50% { color: transparent; }
+    100% { color: white; }
+}
+@-moz-keyframes color-change {
+    0% { color: white; }
+    50% { color: transparent; }
+    100% { color: white; }
+}
+@-ms-keyframes color-change {
+    0% { color: white; }
+    50% { color: transparent; }
+    100% { color: white; }
+}
+@-o-keyframes color-change {
+    0% { color: white; }
+    50% { color: transparent; }
+    100% { color: white; }
+}
+@keyframes color-change {
+    0% { color: white; }
+    50% { color: transparent; }
+    100% { color: white; }
+}
+
