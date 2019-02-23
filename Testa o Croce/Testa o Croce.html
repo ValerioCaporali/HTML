@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testa o Croce</title>
+    <link href="Style.css" rel="stylesheet" type="text/css">
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="Istruzioni.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+<body>
+
+<h1 class="titolo">Clicca per tirare la moneta (testa o croce)</h1>
+
+<div id="coin">
+    <div class="side-a">
+        <p id="Testa" class="testa">Testa</p>
+    </div>
+
+    <div class="side-b">
+        <p id="Croce" class="croce">Croce</p>
+    </div>
+</div>
+
+<div class="Risultato">
+<p id = "risultato"></p>
+</div>
+
+<h1 class="titolo">Passa sopra con il mouse per visualizzare l'ultima modifica</h1>
+
+<div class="button">
+    <button id="btn" class="bottone" onmouseover="myFunction()" onmouseout="reset()">Last Modified</button>
+</div>
+
+<div class="modifica">
+    <p id="ultima" class="ultimaModifica"></p>
+</div>
+
+<h1 class="titolo">Passa sopra con il mouse per visualizzare un messagio alert</h1>
+
+<div class="boh">
+    <button class="sas" onmouseover="message()">Alert message</button>
+</div>
+
+
+</body>
+</html>
