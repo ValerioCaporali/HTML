@@ -1,0 +1,10 @@
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p{
+    text-align: center;
+    font-family: "Bauhaus 93";
+}

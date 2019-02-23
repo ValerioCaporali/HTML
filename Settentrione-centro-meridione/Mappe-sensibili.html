@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Italy map</title>
+
+    <link href="Custom.css" rel="stylesheet" type="text/css">
+
+
+    <script type="text/javascript">
+        function scrivi(testo){
+            document.getElementById("descrizione").innerHTML = testo;
+        }
+    </script>
+
+
+</head>
+
+<body>
+
+<img src="https://www.lentepubblica.it/wp-content/uploads/2014/09/20120217-regioni-italiane.jpg" alt="italy" usemap="#italymap">
+
+<map name="italymap">
+
+    <area shape="poly" coords="297,170,286,153,332,171,365,183,400,185,485,6,73,4,178,194" onmouseover="scrivi('Settentrione')" href="https://it.wikipedia.org/wiki/Italia_settentrionale" target="_blank" alt="Nord">
+    <area shape="poly" coords="300,181,404,189,488,294,412,330" onmouseover="scrivi('Centro')" href="https://it.wikipedia.org/wiki/Italia_centrale" target="_blank" alt="Centro">
+    <area shape="poly" coords="431,342,500,297,777,423,485,595,295,512" onmouseover="scrivi('Meridione')" href="https://it.wikipedia.org/wiki/Italia_meridionale" target="_blank" alt="Meridione">
+
+</map>
+
+<p id="descrizione">Passa sopra con il mouse per visualizzare le informazioni.
+    Con un click trovera info su wikipedia</p>
+
+</body>
+</html>

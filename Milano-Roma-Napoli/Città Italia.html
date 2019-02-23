@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Città d'Italia</title>
+
+    <link href="Custom.css" rel="stylesheet" type="text/css">
+
+
+    <script type="text/javascript">
+        function scrivi(testo){
+            document.getElementById("descrizione").innerHTML = testo;
+        }
+    </script>
+
+</head>
+
+
+<body>
+
+<img src="https://www.lentepubblica.it/wp-content/uploads/2014/09/20120217-regioni-italiane.jpg" alt="italy" usemap="#map">
+
+<map name="map">
+
+    <area shape="circle" coords="289,82,20" onmouseover=" scrivi('Milano &egrave un comune italiano di 1 372 810 abitanti, capitale della Lombardia (click per maggiori info)')" href="https://it.wikipedia.org/wiki/Milano" target="_blank" alt="Milano">
+    <area shape="circle" coords="386,301,20" onmouseover=" scrivi('Roma &egrave una citt&agrave di 2 865 234 abitanti, capitale della Repubblica Italiana (click per maggiori info)')" href="https://it.wikipedia.org/wiki/Roma" target="_blank" alt="Roma">
+    <area shape="circle" coords="437,342,20" onmouseover=" scrivi('Napoli &egrave un comune italano di 962 260 abitanti, capoluogo dell omonima citt&agrave metropolitana e della regione della Campania (click per maggiori info)') " href="https://it.wikipedia.org/wiki/Napoli" target="_blank" alt="Napoli">
+
+</map>
+
+<p id="descrizione">Passa sopra con il mouse per visualizzare le informazioni.
+    Con un click trovera info su wikipedia</p>
+
+</body>
+</html>
